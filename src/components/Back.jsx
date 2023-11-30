@@ -1,4 +1,4 @@
-import { Link,useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "./Back.css"
 
 
@@ -8,7 +8,7 @@ const Back = (props) => {
 		<nav className='backBtn'>
 			<Link to={props.path}>
 				<img
-					src='../../public/img/back.png'
+					src='../../public/back.png'
 					alt=''
 				/>
 			</Link>

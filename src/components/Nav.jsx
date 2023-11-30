@@ -6,7 +6,7 @@ const Nav = () => {
 		<nav>
 			<Link to='/'>
 				<img
-					src='../../public/img/homeicon.png'
+					src='../../public/homeicon.png'
 					alt='Home'
 				/>
 			</Link>
