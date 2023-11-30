@@ -8,7 +8,7 @@ const Back = (props) => {
 		<nav className='backBtn'>
 			<Link to={props.path}>
 				<img
-					src='./back.png'
+					src='../public/back.png'
 					alt=''
 				/>
 			</Link>
