@@ -1,0 +1,39 @@
+
+.detail {
+    background: url(../assets/img/bottle.jpg) center / cover no-repeat;
+	height: fit-content;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-wrap: wrap-reverse;
+    min-height: 100vh;
+}
+
+.detail article {
+    padding: 4%;
+    height: 90vh;
+}
+
+
+.detail div p {
+	color: #d0d0d0;
+	font-size: 1.8vw;
+	margin-bottom: 3%;
+}
+
+.detail div p:nth-of-type(3) {
+    font-size: 1.5vw;
+}
+
+.detail div p span {
+    float: right;
+}
+
+@media only screen and (max-width: 450px) {
+    .detail article {
+    padding: 4%;
+    min-height: 50vh;
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+}

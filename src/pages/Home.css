@@ -1,0 +1,36 @@
+
+
+
+
+.home {
+    background-color: rgb(27, 27, 27);
+    background: url(../assets/img/darkbg.avif) center / cover no-repeat;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 5%;
+    gap: 2rem;
+}
+
+.home a {
+    color: rgb(255, 240, 181);
+    width: 100%;
+    padding: 5%;
+    background: transparent;
+    backdrop-filter: blur(8px) brightness(130%);
+    border-radius: 1rem;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 2px solid rgba(255, 240, 181, 0.378);
+    box-shadow: 0 0 px rgb(254, 203, 0);
+}
+
+
+
+.homeimage {
+    width: 100%;
+    margin: 0.5rem auto;
+    filter: saturate(30%);
+    border-radius: 0.8rem;
+    box-shadow: 0 0 2px rgb(254, 203, 0);
+}
+
