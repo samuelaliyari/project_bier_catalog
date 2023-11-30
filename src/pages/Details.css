@@ -1,6 +1,6 @@
 
 .detail {
-    background: url(../assets/img/bottle.jpg) center / cover no-repeat;
+    background: url(../../public/img/bottle.jpg) center / cover no-repeat;
 	height: fit-content;
 	display: flex;
 	justify-content: center;

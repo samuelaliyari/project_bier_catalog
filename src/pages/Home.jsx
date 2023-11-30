@@ -7,18 +7,18 @@ const Home = () => {
 		<section className='home'>
 			<Link to='/allbeers'>
 				<img
-                        className="homeimage"
-					src='/src/assets/img/all.jpg'
+					className='homeimage'
+					src='../../public/img/all.jpg'
 					alt=''
 				/>
 				<h1>All Beers</h1>
 				<p></p>
 			</Link>
-			<Link to="/randombeer">
+			<Link to='/randombeer'>
 				<div>
 					<img
-                        className="homeimage"
-						src='/src/assets/img/random.jpg'
+						className='homeimage'
+						src='../../public/img/random.jpg'
 						alt=''
 					/>
 					<h1>Random beer</h1>

@@ -5,10 +5,10 @@ import "./Back.css"
 const Back = (props) => {
 
 	return (
-		<nav className="backBtn">
+		<nav className='backBtn'>
 			<Link to={props.path}>
 				<img
-					src='../../src/assets/img/back.png'
+					src='../../public/img/back.png'
 					alt=''
 				/>
 			</Link>

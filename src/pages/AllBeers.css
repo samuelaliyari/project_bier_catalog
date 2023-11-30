@@ -1,6 +1,6 @@
 .allBeers {
     padding: 5vw;
-    background: url(../assets/img/allbeer.jpg) center / contain;
+    background: url(../../public/img/allbeer.jpg) center / contain;
 }
 
 .beerHolderAll {
