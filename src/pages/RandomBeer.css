@@ -1,5 +1,5 @@
 .beer {
-	background: url(../../public/img/bottle.jpg) center / cover no-repeat;
+	background: url(./bottle.jpg) center / cover no-repeat;
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
