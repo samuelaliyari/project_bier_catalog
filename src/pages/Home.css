@@ -4,7 +4,7 @@
 
 .home {
     background-color: rgb(27, 27, 27);
-    background: url(../assets/img/darkbg.avif) center / cover no-repeat;
+    background: url(../../public/homebg.avif) center / cover no-repeat;
     min-height: 100vh;
     display: grid;
     grid-template-rows: 1fr 1fr;
