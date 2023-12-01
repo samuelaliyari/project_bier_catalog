@@ -5,10 +5,6 @@ const Nav = () => {
 	return (
 		<nav>
 			<Link to='/'>
-				<img
-					src='../../public/homeicon.png'
-					alt='Home'
-				/>
 			</Link>
 		</nav>
 	);

@@ -1,21 +1,19 @@
 nav {
-	width: 6vw;
+	width: 6vh;
 	aspect-ratio: 1 / 1;
-	background: transparent;
-	backdrop-filter: blur(32px) brightness(80%);
 	position: fixed;
 	bottom: 3%;
 	right: 3%;
 	border-radius: 50%;
-    display: grid;
-    place-items: center;
+	display: grid;
+	place-items: center;
+	background-image: url(../../public/homeicon.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
 }
 
-nav img {
-    width: 60%;
-    object-fit: cover;
-    margin: 0 auto;
-    padding: 5%;
+nav a {
+	width: 100%;
+	height: 100%;
 }
-
-
