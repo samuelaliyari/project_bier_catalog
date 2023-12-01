@@ -8,7 +8,7 @@ const Home = () => {
 			<Link to='/allbeers'>
 				<img
 					className='homeimage'
-					src='../../public/all.jpg'
+					src='./all.jpg'
 					alt=''
 				/>
 				<h1>All Beers</h1>
@@ -18,7 +18,7 @@ const Home = () => {
 				<div>
 					<img
 						className='homeimage'
-						src='../../public/random.jpg'
+						src='./random.jpg'
 						alt=''
 					/>
 					<h1>Random beer</h1>
