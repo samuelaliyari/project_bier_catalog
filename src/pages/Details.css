@@ -1,6 +1,6 @@
 
 .detail {
-    background: url(../../public/img/bottle.jpg) center / cover no-repeat;
+    background: url(../../public/bottle.jpg) center / cover no-repeat;
 	height: fit-content;
 	display: flex;
 	justify-content: center;
@@ -11,7 +11,7 @@
 
 .detail article {
     padding: 4%;
-    height: 90vh;
+
 }
 
 
@@ -30,10 +30,13 @@
 }
 
 @media only screen and (max-width: 450px) {
-    .detail article {
-    padding: 4%;
-    min-height: 50vh;
-    display: flex;
-    flex-wrap: wrap-reverse;
+
+.detail div p {
+color: #d0d0d0;
+font-size: 2vw;
+margin-bottom: 3%;
+}
+.detail div p:nth-of-type(3) {
+    font-size: 2.5vw;
 }
 }
